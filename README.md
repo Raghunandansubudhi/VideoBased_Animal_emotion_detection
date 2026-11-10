@@ -1,3 +1,5 @@
+# VideoBased_Animal_emotion_detection
+
 # AniMind — AI-Powered Animal Behavior Analysis Platform
 
 > Deep learning-based animal behavior recognition and health monitoring system for pets and livestock
