@@ -13,6 +13,7 @@ __pycache__/
 
 # ── Virtual environment ───────────────────────────────────────────────────────
 backend/venv/
+backend/.venv/
 venv/
 .venv/
 env/
@@ -23,6 +24,12 @@ env/
 .env
 .env.local
 .env.*.local
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+id_ed25519*
 
 
 
@@ -47,6 +54,16 @@ backend/temp_*.jpg
 backend/temp_*.mp4
 backend/temp_*.wav
 backend/temp_*.png
+temp_videos/
+uploads/
+*.tmp
+
+# ── Local datasets and generated caches ──────────────────────────────────────
+data/
+datasets/
+cache/
+**/__pycache__/
+*.cache
 
 # ── OS / editor ───────────────────────────────────────────────────────────────
 .DS_Store
@@ -63,4 +80,5 @@ Thumbs.db
 # ── Logs ──────────────────────────────────────────────────────────────────────
 *.log
 npm-debug.log*
+*.log.*
 yarn-debug.log*

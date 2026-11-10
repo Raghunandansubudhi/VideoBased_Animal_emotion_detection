@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from collections import deque
@@ -436,13 +436,19 @@ async def predict(file: UploadFile = File(...)):
     try:
         dog_error = _ensure_dog_pipeline_loaded()
         if dog_error:
-            return {"error": f"Dog emotion model unavailable: {dog_error}"}
+            raise HTTPException(status_code=503, detail=f"Dog emotion model unavailable: {dog_error}")
+
+        if file.content_type and not file.content_type.startswith("image/"):
+            raise HTTPException(status_code=415, detail="Upload an image file (JPG, PNG, or WEBP).")
 
         contents = await file.read()
         temp_path = f"temp_{uuid.uuid4().hex}.jpg"
         with open(temp_path, "wb") as f:
             f.write(contents)
-        return predict_photo(temp_path)
+        result = predict_photo(temp_path)
+        if result.get("error"):
+            raise HTTPException(status_code=422, detail=result["error"])
+        return result
     finally:
         if temp_path and os.path.exists(temp_path):
             os.remove(temp_path)
@@ -454,15 +460,27 @@ async def predict(file: UploadFile = File(...)):
 async def predict_video_api(file: UploadFile = File(...)):
     temp_path = None
     try:
+        suffix = Path(file.filename or "").suffix.lower()
+        if suffix not in {".mp4", ".avi", ".mov", ".webm"}:
+            raise HTTPException(status_code=415, detail="Unsupported video format. Upload an MP4, AVI, MOV, or browser-recorded WebM file.")
+        if file.content_type and not file.content_type.startswith("video/") and file.content_type != "application/octet-stream":
+            raise HTTPException(status_code=415, detail="The file MIME type must be a video type.")
         dog_error = _ensure_dog_pipeline_loaded()
         if dog_error:
-            return {"error": f"Dog emotion model unavailable: {dog_error}"}
+            raise HTTPException(status_code=503, detail=f"Dog emotion model unavailable: {dog_error}")
 
-        contents = await file.read()
-        temp_path = f"temp_{uuid.uuid4().hex}.mp4"
+        contents = await file.read(200 * 1024 * 1024 + 1)
+        if len(contents) > 200 * 1024 * 1024:
+            raise HTTPException(status_code=413, detail="Video exceeds the 200 MB upload limit.")
+        if not contents:
+            raise HTTPException(status_code=400, detail="The uploaded video is empty.")
+        temp_path = f"temp_{uuid.uuid4().hex}{suffix}"
         with open(temp_path, "wb") as f:
             f.write(contents)
-        return predict_video(temp_path)
+        result = predict_video(temp_path)
+        if result.get("error"):
+            raise HTTPException(status_code=422, detail=result["error"])
+        return result
     finally:
         if temp_path and os.path.exists(temp_path):
             os.remove(temp_path)

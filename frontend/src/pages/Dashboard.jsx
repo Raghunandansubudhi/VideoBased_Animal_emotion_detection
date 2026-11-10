@@ -26,7 +26,7 @@ export default function Dashboard() {
       {/* ── Header ── */}
       <div className={styles.header}>
         <div className={styles.headerContent}>
-          <img src="/animind-logo.jpg" alt="AniMind" className={styles.headerLogo} />
+          <img src="/animind-logo.jpg" alt="AWARE" className={styles.headerLogo} />
           <div>
             <h1 className={styles.title}>Welcome back 👋</h1>
             <p className={styles.subtitle}>What would you like to check on today?</p>

@@ -13,8 +13,8 @@ export default function Navbar({ onMenuClick }) {
       </button>
 
       <div className={styles.brand}>
-        <img src="/animind-logo.jpg" alt="AniMind" className={styles.logo} />
-        <span className={styles.brandName}>AniMind</span>
+        <img src="/animind-logo.jpg" alt="AWARE" className={styles.logo} />
+        <span className={styles.brandName}>AWARE</span>
       </div>
 
       <div className={styles.actions}>

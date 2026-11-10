@@ -16,7 +16,7 @@ export default function Home() {
             <span className={styles.heroAccent}>like never before</span>
           </h1>
           <p className={styles.heroSub}>
-            Upload a photo or audio and get instant AI-powered insights about your pet or livestock's health, emotions, and behavior.
+            Upload a photo, video, or audio clip to explore experimental animal behaviour and health model outputs. Results are not verified diagnoses or emotional states.
           </p>
           <button className={styles.btnPrimary} onClick={() => navigate('/modules')}>
             Analyze my animal →
@@ -41,7 +41,7 @@ export default function Home() {
             <ul className={styles.featureList}>
               <li className={styles.featureItem}>
                 <span className={styles.featureIcon}>😊</span>
-                Know if your pet is happy, stressed, or anxious
+                Review experimental dog behaviour and expression indicators; outputs are uncertain estimates, not verified emotional states
               </li>
               <li className={styles.featureItem}>
                 <span className={styles.featureIcon}>🩺</span>
@@ -105,7 +105,7 @@ export default function Home() {
             <span className={styles.featureCardIcon}>😊</span>
             <p className={styles.featureCardTitle}>Emotions & Mood</p>
             <p className={styles.featureCardDesc}>
-              Detect happiness, sadness, fear, and stress in dogs and cats
+              Review experimental dog behaviour and expression indicators; predictions are not verified emotional states
             </p>
           </div>
           <div className={styles.featureCard}>

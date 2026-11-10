@@ -1,0 +1,510 @@
+{
+  "archive_sha256": "e65efe510e7d1baf99f5998e7074a97126be6813a530154693c84090cc6ae3b3",
+  "archive_bytes": 162237964,
+  "zip_entries": 4001,
+  "root_files": [
+    "Dog Emotion/labels.csv"
+  ],
+  "files_by_extension": {
+    ".jpg": 3975,
+    ".jpeg": 25,
+    ".csv": 1
+  },
+  "images_by_folder": {
+    "angry": 1000,
+    "happy": 1000,
+    "(root)": 1,
+    "relaxed": 1000,
+    "sad": 1000
+  },
+  "decoded_images": 4000,
+  "decode_errors": [],
+  "dimensions_unique": 918,
+  "common_dimensions": [
+    [
+      [
+        384,
+        384
+      ],
+      1494
+    ],
+    [
+      [
+        500,
+        375
+      ],
+      411
+    ],
+    [
+      [
+        512,
+        512
+      ],
+      202
+    ],
+    [
+      [
+        500,
+        333
+      ],
+      144
+    ],
+    [
+      [
+        375,
+        500
+      ],
+      85
+    ],
+    [
+      [
+        500,
+        374
+      ],
+      78
+    ],
+    [
+      [
+        333,
+        500
+      ],
+      70
+    ],
+    [
+      [
+        499,
+        375
+      ],
+      61
+    ],
+    [
+      [
+        500,
+        332
+      ],
+      24
+    ],
+    [
+      [
+        500,
+        334
+      ],
+      22
+    ],
+    [
+      [
+        275,
+        183
+      ],
+      20
+    ],
+    [
+      [
+        374,
+        500
+      ],
+      15
+    ],
+    [
+      [
+        390,
+        256
+      ],
+      13
+    ],
+    [
+      [
+        500,
+        500
+      ],
+      13
+    ],
+    [
+      [
+        390,
+        258
+      ],
+      12
+    ]
+  ],
+  "dimension_min_width": 100,
+  "dimension_max_width": 3355,
+  "dimension_min_height": 72,
+  "dimension_max_height": 3072,
+  "exact_duplicate_groups": [
+    [
+      "Dog Emotion/angry/Ke6xejmrcvHlfaWTr4vYrafOxhNcRL100.jpg",
+      "Dog Emotion/angry/Wy3U5OyutSBk6o3oDILPcfcSwtvNdn105.jpg"
+    ],
+    [
+      "Dog Emotion/angry/M4cXEcZVU1sI8EDQt2c0SOozZvNt0J50.jpg",
+      "Dog Emotion/angry/o0BEPHdEltt07Y99RYVjlOTt0crZ9B290.jpg"
+    ],
+    [
+      "Dog Emotion/sad/1iqfegoIrN8DnFWVzQwNAL2Nzi2r3f174.jpg",
+      "Dog Emotion/sad/kwu52jWCxMzyEwBRb1XwstrVKknaEy223.jpg"
+    ],
+    [
+      "Dog Emotion/sad/6p6NqTj8nCMeDH9j5KWT7vzDUlIcsk55.jpg",
+      "Dog Emotion/sad/mjsqfkGHxbxYHeR6I40yWTZQeGVEuv53.jpg"
+    ]
+  ],
+  "exact_duplicate_file_count": 8,
+  "perceptual_hash_method": "DCT pHash 64-bit on 32x32 grayscale; near duplicate threshold Hamming <=4",
+  "near_duplicate_groups": [
+    {
+      "file_a": "Dog Emotion/sad/7GypEsQg8y1mePNihZraRbcz66iUEi970.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/WGYDPJFZhXCIk8vDLUBTYl3wqEnZ8K387.jpg",
+      "class_b": "sad",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/SPeLBUouGjsvjF7mwA3WDyiXGMAcdJ567.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/uZ0oQJixE50aBugrAHnnVte0co2vRZ529.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/FxnwoJZy08NQ4W5ZlxnVG354BQqWpV525.jpeg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/RbzNOvY5GIAl3PSjIRTKpEkQs1NByq575.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/FmfBJf2InwmopYOCoFFEwCjB5XoX1l543.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/acMfmHckmhOdg55fv9nwAoG4fnDKAv593.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/n9EScxm5J8iVCAVctD0n8mOU6XDJl4622.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/uQeR2pr0IY2BGdocBkF4AcU6QRcd0b215.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/BHPiTPvpl3AIfRmwblH9QX9BnIIae8425.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/lp2VpbxUDw41VRL8V5qZWIgWxUUW2K733.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/QAapmNL7cp1EKtX8cITSKO08is9vk7527.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/xjW02YiSDOrydGQgRubh262c6e3C2t552.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/BnAZpKqWIYQ3sd8uAkDHkMLGEd00tY758.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/SwgGsoE0Cto8NuNOXSpeRSSEdMlT2U224.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/J62TVnJEHFeU1FADIVTt4X1qMIrdkh509.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/dBBoU1SnCgqbwo8LHH2qlGkWdh2W0C514.jpeg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/fuIBGx4gaBSJqinlHCsD0nSCnPWWPm973.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/mcQeoaiVyTChor7K16OQmg6ZB9RZ6E679.jpg",
+      "class_b": "sad",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/KxJKfof24pIpxsF3JmLjp4IoSHeQks652.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/wJgoAhINzizB2irbMeFDusaK9BvQVr596.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/Kgh1GJ6qwsEsyV8o6qk8iyrwJyvqTr439.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/gQMTMQLn49JFUjAf6JdL3s076TqZZs842.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/9BqS5VTkIYAyO0VwmjJdwbc5RM3BGz599.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/Nuc4gdD0wFm46sgyfOFi6A0JDDb8qy528.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/cHgZDhJbGeC4mcs9Cd5gHFDs9bRaqa653.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/tNuO1diU4XD8tvyxj0wWAyFbBEJuDr136.jpg",
+      "class_b": "sad",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/IGmsJN89dWc1oP3j3sRq6ZPyuOzI3R515.jpeg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/xGbMMSGF25uJDfvUI5R0hyDCZtTPog582.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/6p6NqTj8nCMeDH9j5KWT7vzDUlIcsk55.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/mjsqfkGHxbxYHeR6I40yWTZQeGVEuv53.jpg",
+      "class_b": "sad",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/DXfesaifqWkghs5GFBR0g3FODl7q9e358.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/Q9Djcu53nPK8C4zXGWpCxpkl4LQPJ8831.jpg",
+      "class_b": "sad",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/1JG6hK4SpWtBZ02lgHdquFtERBHoeU568.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/mls2TgFhnbe9ZWgC3pHRKjd5o2iPHS535.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/sad/YqYGU5wInlcbosaYibEcCqMaGqGYeT763.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/i3h6qukJUYGQcUrRomxBClgqhmaZaU400.jpg",
+      "class_b": "sad",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/sad/4OPWksL3d4vIJUuLgBNfICmLJb6TNh768.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/7IkoHnxYuLvi5rE88kbhyO7sosvspf961.jpg",
+      "class_b": "sad",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/sad/1MpwUJ9k2oN6BRmFiONKNsoaNeJSph109.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/msgJhaADqsELcelNmxMphIhia8jDip698.jpg",
+      "class_b": "sad",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/M4ZT4NQ1azPbVtO9fatw8Qd5NDLbVr988.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/g5Jy6XyrrHCuYTRw35rXDBXilXwgXs901.jpg",
+      "class_b": "angry",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/OwyzX6VUIHYHejdMcEb7GK6IMRR5VA774.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/wKtKH0fj4VG0ic2BlEyKgpGO6YGOm1225.jpg",
+      "class_b": "angry",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/sad/Vfgx3iccASZjKr11otBCeb91g8z79i645.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/i4YlVFe9aZniaR6zDRLrFVN2lDRPQt896.jpg",
+      "class_b": "sad",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/DE2GS5HdI9v2OarSFq1YOWgKc73gRx548.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/uQeR2pr0IY2BGdocBkF4AcU6QRcd0b215.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/sad/SCPRTNTWsYgPetoB0DWAPicgGS0rsF687.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/ysdzab4rYpC5Vg5l79L1rrZeUPBvLl379.jpg",
+      "class_b": "sad",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/Pvrh70VNq4GqYhrUR5aKEJ6g9BgLK5554.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/zoCBMornppQTwDFe02eyWuqhZPpkmA555.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/Vnlz6eh512oYLF08YTSN7nUfpEBCXO532.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/p1E2NOmEZlqp4L3St7cDnxkx7W7Kpj513.jpeg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/3BRqQKAaznqF4DCqFKfpFmwS6eDJs0582.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/yKJkU5fQ5JN4LaRLDYdh87PKCce1X4911.jpg",
+      "class_b": "sad",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/9jYfw9LIhRk0XbIO7UuJTPt5nfrrmj666.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/e8mjf8UbQJWmHqPV1RmoY5GeBcSWxa44.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/0da4j6Ehkb6Ml0YBRiWmsBU2wEMoXP409.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/g5Jy6XyrrHCuYTRw35rXDBXilXwgXs901.jpg",
+      "class_b": "angry",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/5FaXtNiUTcOEch8Ly54vvm6zwSckbH516.jpeg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/XiL5OnGXaN7icBLe7Y3GTIecOMKy8z566.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/gIW6Dnt0y5bF3zwZnazfj1hstQZoSS705.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/mCG0lJXrjt6YLE6kvZ7wiZ8OOXgSua275.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/5zBh9BCN4OvXtY4582uHYJ2W4REKaV563.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/J8w3lLc8zxRevKD4PyoCJiidY9VclK547.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/NWLYfKe2fvpXXYyrpIAgOhF12Jwykm519.jpeg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/zRlfLp3Zs92JK96pjNpo00TcAdhc0c581.jpeg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/DUpYIeze1zoLQQXNiLY01vAA4oZiGk570.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/LRo8n5yljUbgl1eyzmFVQOncZmURZf510.jpeg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/EG6S7teTihA7DpQntQP2kWmCz8LfFN544.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/KdJO6fNBFmNNA3eomOwKp9bwNGxj9w191.jpg",
+      "class_b": "angry",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/YVaRwhhILO63p4TmfwXUqgpPU3kiCy560.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/r3ZeCwQmk62HZB47I2VxvxDic29fuN520.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/BbF89wo5sQAdq9HREiRVpJFsFezt0T621.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/d98wWMjzTQfWcxWcgRCUI4PQg1vMUl536.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/LUJxTLz9XDGv5gk59SsID20HCxtrhD574.jpeg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/sxhGswsxz73w4nVX1h7tcVE1UVYXrk551.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/tU4IPJJkpXT6lpAqq1HS0wcjXRGpF2653.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/tbV4sXdCkvNMF8teX3jxmIiFA4K2du924.jpg",
+      "class_b": "angry",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/Jp3wTwonqjQIRpe2QFF880gDCcGodX237.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/R7BPhZg1PZKVLEjmm2VemLfAJPCtAs860.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/DE2GS5HdI9v2OarSFq1YOWgKc73gRx548.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/n9EScxm5J8iVCAVctD0n8mOU6XDJl4622.jpg",
+      "class_b": "angry",
+      "hamming_distance": 2
+    },
+    {
+      "file_a": "Dog Emotion/angry/Ke6xejmrcvHlfaWTr4vYrafOxhNcRL100.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/Wy3U5OyutSBk6o3oDILPcfcSwtvNdn105.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/BqUvjm2nfyDzMM7UvjazMxytbttPsH105.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/fiMMgiuBvzMW77wGqjzGz7FGKmkZDW166.jpg",
+      "class_b": "sad",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/1iqfegoIrN8DnFWVzQwNAL2Nzi2r3f174.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/kwu52jWCxMzyEwBRb1XwstrVKknaEy223.jpg",
+      "class_b": "sad",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/maeieAnmwvx5ttnvnO0CrXGFQdrXu2550.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/uLKzfnAOmyVFiluOjmNQ8jTlsCeUos559.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/angry/AP5bRBRPIBANVAlqP1hILHmXIcrQqx967.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/Jml8p3dZVmygoheL7xhivJfxPpKcZB810.jpg",
+      "class_b": "angry",
+      "hamming_distance": 4
+    },
+    {
+      "file_a": "Dog Emotion/angry/M4cXEcZVU1sI8EDQt2c0SOozZvNt0J50.jpg",
+      "class_a": "angry",
+      "file_b": "Dog Emotion/angry/o0BEPHdEltt07Y99RYVjlOTt0crZ9B290.jpg",
+      "class_b": "angry",
+      "hamming_distance": 0
+    },
+    {
+      "file_a": "Dog Emotion/sad/WgtPxTErWUvcv7SWYFQnAoLbSmNthe847.jpg",
+      "class_a": "sad",
+      "file_b": "Dog Emotion/sad/cFAHQ4D65JYw55gBHSAaT48FLhsyc6412.jpg",
+      "class_b": "sad",
+      "hamming_distance": 4
+    }
+  ],
+  "near_duplicate_pair_count": 50,
+  "mean_laplacian_variance_32": 12018.169297180175,
+  "images_laplacian_var_le_10": 0,
+  "mean_gray_32": 113.24203295898438
+}

@@ -1,0 +1,60 @@
+{
+  "source": {
+    "platform": "Kaggle public dataset metadata API and version 1 archive",
+    "dataset_id": "danielshanbalico/dog-emotion",
+    "title": "Dog Emotion",
+    "creator": "Daniel Shan Balico",
+    "version": 1,
+    "last_updated": "2023-02-09",
+    "license_record": "CC0: Public Domain",
+    "license_version_explicit_in_api_text": false,
+    "description": "Images collected from various online sources and manually annotated by uploader; source URLs and per-image rights are not listed."
+  },
+  "archive": {
+    "bytes": 162237964,
+    "sha256": "e65efe510e7d1baf99f5998e7074a97126be6813a530154693c84090cc6ae3b3",
+    "zip_entries": 4001,
+    "images": 4000,
+    "annotation_file": "Dog Emotion/labels.csv",
+    "image_formats": {".jpg": 3975, ".jpeg": 25},
+    "decode_errors": 0
+  },
+  "classes": {"angry": 1000, "happy": 1000, "relaxed": 1000, "sad": 1000},
+  "annotation_audit": {
+    "labels_csv_rows": 4000,
+    "unique_filenames": 4000,
+    "missing_images": 0,
+    "folder_label_mismatches": 0,
+    "label_method": "Manual annotation by uploader, according to dataset record; no detailed protocol/adjudication published."
+  },
+  "image_audit": {
+    "unique_dimensions": 918,
+    "width_range": [100, 3355],
+    "height_range": [72, 3072],
+    "most_common_dimension": "384x384 (1494 images)",
+    "second_most_common_dimension": "500x375 (411 images)",
+    "visual_spot_check": "16-image contact sheet; varied breeds, poses, scenes, lighting, and image scale."
+  },
+  "duplicate_audit": {
+    "exact_duplicate_pairs_sha256": 4,
+    "exact_duplicate_files": 8,
+    "exact_pairs_cross_class": 0,
+    "perceptual_hash_method": "DCT pHash, 64-bit; candidate if Hamming distance <= 4",
+    "candidate_pairs": 50,
+    "candidate_pairs_by_class": {"angry-angry": 36, "sad-sad": 14},
+    "candidate_pairs_include_exact_duplicates": true,
+    "interpretation": "Perceptual-hash candidates are not all visually confirmed duplicates."
+  },
+  "license_verdict": {
+    "record_declaration_verified": true,
+    "rights_chain_independently_verified": false,
+    "declared_terms_allow_commercial_research_and_derivatives": true,
+    "project_training_started": false,
+    "current_hold_reason": "User instructed not to train yet; uploader's authority over source images is not independently established."
+  },
+  "project_files": {
+    "manifest": "dataset_manifest.csv",
+    "detailed_audit": "dataset_content_audit.json",
+    "report": "DATASET_AUDIT.md"
+  }
+}

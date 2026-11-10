@@ -37,7 +37,7 @@ export default function Sidebar({ open, onClose }) {
     <aside className={`${styles.sidebar} ${open ? styles.open : ''}`}>
       <div className={styles.logo}>
         <div className={styles.logoMark}>🐾</div>
-        <span className={styles.logoText}>AniMind</span>
+        <span className={styles.logoText}>AWARE</span>
       </div>
 
       <nav className={styles.nav}>
